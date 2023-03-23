@@ -7,11 +7,11 @@ os.system("pip install git+https://github.com/explosion/spacy-transformers")
 #import allennlp
 from allennlp.predictors.predictor import Predictor
 import allennlp_models.rc
-#from PIL import Image
-#image = Image.open('kiitec logo.png')
+from PIL import Image
+image = Image.open('kiitec logo.png')
 #html = "<img src= "kiitec logo.png" >"
 #css = "img{diplay:relative,left:350}"
-#st.image(image,  width=None)
+st.image(image,  width=None)
 st.title('''KIITEC VIRTUAL ASSISTANT''')
 st.write('Sorry am still learning')
 checkpoint = "https://storage.googleapis.com/allennlp-public-models/bidaf-elmo.2021-02-11.tar.gz"
